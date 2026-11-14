@@ -130,11 +130,11 @@ Holding parametric payout at $K_{\text{par}} = £20,000$, $\text{TPR} = 0.995$, 
 
 | Parametric Premium ($P_{\text{par}}$) | Low Income Par Take-Up | Middle Income Par Take-Up | High Income Par Take-Up | Low + Middle Par Policies | 5-Year Technical Profit | $99.5\%$ VaR (Capital) | Annual $\text{RoC}$ |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **£1,700 (Default)** | $39.18$ ($39$) | $100.84$ ($101$) | $19.54$ ($20$) | $140.02$ ($140$) | $£1,567,536$ ($£1.57\text{m}$) | $£4,991,863$ ($£4.99\text{m}$) | **$6.28\%$ ($6.3\%$)** |
-| **£1,400** | $88.35$ ($88$) | $126.47$ ($126$) | $23.26$ ($23$) | $214.82$ ($215$) | $£1,531,067$ ($£1.53\text{m}$) | $£5,919,502$ ($£5.92\text{m}$) | **$5.17\%$ ($5.2\%$)** |
-| **£1,100** | $170.41$ ($170$) | $152.61$ ($153$) | $26.93$ ($27$) | $323.02$ ($323$) | $£1,276,901$ ($£1.28\text{m}$) | $£7,245,044$ ($£7.25\text{m}$) | **$3.52\%$ ($3.5\%$)** |
-| **£800** | $275.69$ ($276$) | $178.88$ ($179$) | $30.54$ ($31$) | $454.57$ ($455$) | $£653,450$ ($£0.65\text{m}$) | $£8,985,244$ ($£8.99\text{m}$) | **$1.45\%$ ($1.5\%$)** |
-| **£500** | $339.02$ ($339$) | $184.08$ ($184$) | $30.84$ ($31$) | $523.10$ ($523$) | $-£193,281$ ($-£0.19\text{m}$) | $£9,845,444$ ($£9.85\text{m}$) | **$-0.39\%$ ($-0.4\%$)** |
+| **£1,700 (Default)** | $39.18$ ($39$) | $100.84$ ($101$) | $19.54$ ($20$) | $140.02$ ($140$) | £1,567,536 (£1.57m) | $£4,991,863$ (£4.99m) | **6.28\% (6.3\%)** |
+| **£1,400** | $88.35$ ($88$) | $126.47$ ($126$) | $23.26$ ($23$) | $214.82$ ($215$) | £1,531,067 (£1.53m) | £5,919,502 (£5.92m$) | **5.17\% (5.2\%)** |
+| **£1,100** | $170.41$ ($170$) | $152.61$ ($153$) | $26.93$ ($27$) | $323.02$ ($323$) | £1,276,901 (£1.28m) | £7,245,044 (£7.25m) | **3.52\% (3.5\%)** |
+| **£800** | $275.69$ ($276$) | $178.88$ ($179$) | $30.54$ ($31$) | $454.57$ ($455$) | £653,450 (£0.65m) | £8,985,244 (£8.99m) | **1.45\% (1.5\%)** |
+| **£500** | $339.02$ ($339$) | $184.08$ ($184$) | $30.84$ ($31$) | $523.10$ ($523$) | -£193,281 (-£0.19m) | £9,845,444 (£9.85m) | **-0.39\% (-0.4\%)** |
 
 Low-income households exhibit the steepest price elasticity (expanding nearly $9\times$ from $39$ to $339$ policies as premium drops from $£1,700$ to $£500$), whereas varying the payout trigger $K_{\text{par}}$ from $£14,000$ to $£30,000$ at $£1,700$ premium (`Pricing Strategy!A10:E14`) primarily attracts middle-income households because low-income demand is bottlenecked by the affordability score $a_{\text{Low},\text{par}}$.
 
@@ -146,10 +146,10 @@ Comparing candidate $(P_{\text{par}}, K_{\text{par}})$ combinations against the 
 
 | Premium ($P_{\text{par}}$) | Payout ($K_{\text{par}}$) | Low + Middle Par Take-Up | High Par Take-Up | 5-Year Technical Profit | $99.5\%$ VaR (Capital) | Annual $\text{RoC}$ | Strategic Assessment |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :--- |
-| **£1,700** | **£25,000** | $200.08$ ($200$) | $34.24$ ($34$) | $£1,595,679$ ($£1.60\text{m}$) | $£6,494,744$ ($£6.5\text{m}$) | $4.91\%$ ($4.9\%$) | Higher cover attracts Middle/High income; low Low-income reach ($51$ policies) |
-| **£1,700** | **£20,000** | $140.02$ ($140$) | $19.54$ ($20$) | $£1,567,536$ ($£1.57\text{m}$) | $£4,991,863$ ($£5.0\text{m}$) | $6.28\%$ ($6.3\%$) | Default parameters; high $\text{RoC}$ but weak Low-income inclusion ($39$ policies) |
-| **£1,100** | **£20,000** | $323.02$ ($323$) | $26.93$ ($27$) | $£1,276,901$ ($£1.28\text{m}$) | $£7,245,044$ ($£7.2\text{m}$) | $3.52\%$ ($3.5\%$) | Strong inclusion ($170$ Low, $153$ Mid), but $\text{RoC}$ diluted to $3.5\%$ |
-| **£1,300 (Recommended)** | **£20,000** | **$247.23$ ($247$)** | **$24.49$ ($24$)** | **$£1,480,352$ ($£1.48\text{m}$)** | **$£6,299,702$ ($£6.3\text{m}$)** | **$4.70\%$ ($4.7\%$)** | **Optimal balance: $112$ Low + $135$ Mid parametric policies ($415$ total book) at $4.7\%$ $\text{RoC}$** |
+| **£1,700** | **£25,000** | $200.08$ ($200$) | $34.24$ ($34$) | £1,595,679 (£1.60m) | £6,494,744 (£6.5m) | 4.91\% (4.9\%) | Higher cover attracts Middle/High income; low Low-income reach ($51$ policies) |
+| **£1,700** | **£20,000** | $140.02$ ($140$) | $19.54$ ($20$) | £1,567,536 (£1.57m) | £4,991,863 (£5.0m) | 6.28\% (6.3\%) | Default parameters; high $\text{RoC}$ but weak Low-income inclusion ($39$ policies) |
+| **£1,100** | **£20,000** | $323.02$ ($323$) | $26.93$ ($27$) | £1,276,901 (£1.28m) | £7,245,044 (£7.2m) | 3.52\% (3.5\%) | Strong inclusion ($170$ Low, $153$ Mid), but RoC diluted to 3.5\% |
+| **£1,300 (Recommended)** | **£20,000** | **$247.23$ ($247$)** | **$24.49$ ($24$)** | **£1,480,352 (£1.48m)** | **£6,299,702 (£6.3m)** | **$4.70\%$ ($4.7\%$)** | **Optimal balance: $112$ Low + $135$ Mid parametric policies ($415$ total book) at 4.7\% RoC** |
 
 ---
 
